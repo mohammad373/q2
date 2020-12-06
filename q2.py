@@ -505,10 +505,11 @@ while True:
                       time.sleep(0.6)
                       print(Fore.GREEN + "Your Web Site " + Fore.YELLOW + "==>  "  + Fore.RED + str(soc))
                       time.sleep(1)
-                      print(Fore.YELLOW + "End " + Fore.GREEN + ";)\n")
-                  except:
                       print(Fore.RED + "\nThis Is Ip Address WebSite" + Fore.YELLOW + " ;) \n")
                       print(Fore.BLUE + "\n******************************\n")  
+
+                  except:
+                        pass
               __1__()
               # __3__()     Cloud Flara ;)
               import os
