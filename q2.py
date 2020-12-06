@@ -202,7 +202,7 @@ while True:
 
 
             if n == 6:
-                   my_list = ['robots.txt',
+                      my_list = ['robots.txt',
                   'search/',
                   'admin/',
                   'login/',
@@ -577,7 +577,7 @@ while True:
                                                                         
               # __5__()   Admin WebSite
                         
-              my_list = ['robots.txt',
+                 my_list = ['robots.txt',
                   'search/',
                   'admin/',
                   'login/',
