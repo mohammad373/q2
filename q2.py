@@ -63,6 +63,9 @@ while True:
             print(Fore.RED + "             [10] "+ Fore.GREEN + " - whois" + Fore.BLUE + " ;) ")
             print(Fore.BLUE + "                 *****************")
             time.sleep(0.3)
+            print(Fore.RED + "             [11] "+ Fore.GREEN + " - All" + Fore.BLUE + " ;) ")
+            print(Fore.BLUE + "                 *****************")
+            time.sleep(0.3)
        
             
             n= int(input(Fore.GREEN + "\nEnter Your Number 1 ~ 10 " + Fore.BLUE + "==>  " ))
@@ -490,7 +493,48 @@ while True:
                   __10__() 
             #______________________________________________________________________________________________________________
             #==============================================================================================================
+            if n == 11:
+                        # __1__() Ip WebSite 
+              org1 = input(Fore.RED + "Enter Your Address WebSite" + Fore.YELLOW + " ==>  ")
+              import socket
+              import time
+              def __1__():
+                  try:
+                      site = org1
+                      soc = socket.gethostbyname(site)
+                      time.sleep(0.6)
+                      print(Fore.GREEN + "Your Web Site " + Fore.YELLOW + "==>  "  + Fore.RED + str(soc))
+                      time.sleep(1)
+                      print(Fore.YELLOW + "End " + Fore.GREEN + ";)\n")
+                  except:
+                      print(Fore.RED + "\nThis Is Ip Address WebSite" + Fore.YELLOW + " ;) \n")
+                      print(Fore.BLUE + "\n******************************\n")  
+              __1__()
+              # __3__()     Cloud Flara ;)
+              import os
+              import sys
+              import time
+              import socket
+              from colorama import Fore
 
+              def __3__():
+                    try:
+                        site = org1
+                        my_list = ["www",'ftp', 'cpanel', 'webmail', 'localhost', 'local', 'mysql', 'forum', 'driect-connect', 'blog', 'vb', 'forums', 'home', 'direct', 'forums', 'mail', 'access', 'admin', 'administrator', 'email', 'downloads', 'ssh', 'owa', 'bbs', 'webmin', 'paralel', 'parallels', 'www0', 'www', 'www1', 'www2', 'www3', 'www4', 'www5', 'shop', 'api', 'blogs', 'test', 'mx1', 'cdn', 'mysql', 'mail1', 'secure', 'server', 'ns1', 'ns2', 'smtp', 'vpn', 'm', 'mail2', 'postal', 'support', 'web', 'dev']
+                        for item in my_list:
+                            host = item + "." + site
+                            bypass = socket.gethostbyname(str(host))
+                            print(Fore.GREEN + "Your Ip "+ Fore.YELLOW + "==> " + Fore.RED + str(bypass) + Fore.YELLOW + " | " + Fore.RED + str(host))
+                            time.sleep(2)
+                    except:
+                        print(Fore.RED + "\nThis Is Ip Address WebSite For Cloud Flare" + Fore.YELLOW + " ;) \n")
+                        print(Fore.BLUE + "\n******************************\n")  
+              __3__()                      
+                                                
+                                                
+                                    
+            
+            
             
             #_______________________________________________________________________________________________________________
             #===============================================================================================================
