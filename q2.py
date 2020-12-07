@@ -76,7 +76,7 @@ while True:
             # Ip Site Mamole
 
             if n == 1:
-
+              baner()          
               import socket
               import time
               def __1__():
@@ -100,7 +100,7 @@ while True:
             # Ip Carbar
 
             if n == 2:        
-
+              baner()          
               import os
               import socket
               import sys
