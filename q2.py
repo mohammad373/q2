@@ -2,11 +2,6 @@
 
 # q
 
-while True:
-            import time
-            import os
-            from colorama import Fore
-            os.system("clear")
 def baner():
             os.system("clear")
             from colorama import Fore
@@ -30,7 +25,6 @@ while True:
             import time
             import os
             from colorama import Fore
-            os.system("clear")
             baner()
 
 
