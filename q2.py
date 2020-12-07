@@ -9,7 +9,7 @@ while True:
             os.system("clear")
 def baner():
             from colorama import Fore
-            print(Fore.RED """
+            print(Fore.RED +  """
 ██╗  ██╗                ███╗   ██╗██╗    ██╗██╗    ██╗██████╗ 
 ██║  ██║                ████╗  ██║██║    ██║██║    ██║██╔══██╗
 ███████║                ██╔██╗ ██║██║ █╗ ██║██║ █╗ ██║██████╔╝
