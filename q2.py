@@ -523,8 +523,8 @@ while True:
 
                         def __12__():
                             try:
-                                print(Fore.YELLOW + "\nHellow . Welcome Back ;)")
-                                time.sleep(2)
+                                # print(Fore.YELLOW + "\nHellow . Welcome Back ;)")
+                                # time.sleep(2)
                                 target = input(Fore.GREEN + "\nEnter Your Address Target" + Fore.YWLLOW + " ==>  ")
                                 time.sleep(2)
                                 if target == "" or None :
