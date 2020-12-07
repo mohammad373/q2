@@ -7,7 +7,9 @@ while True:
             import os
             from colorama import Fore
             os.system("clear")
-            print(Fore.RED + """
+def baner():
+            from colorama import Fore
+            print(Fore.RED """
 ██╗  ██╗                ███╗   ██╗██╗    ██╗██╗    ██╗██████╗ 
 ██║  ██║                ████╗  ██║██║    ██║██║    ██║██╔══██╗
 ███████║                ██╔██╗ ██║██║ █╗ ██║██║ █╗ ██║██████╔╝
@@ -23,13 +25,17 @@ while True:
 ═════════════════════════════════════════════════════════════
                               """)
 
-
-
+while True:
+            import time
+            import os
+            from colorama import Fore
+            os.system("clear")
+            baner()
 
 
 
             time.sleep(1)
-            print("Pleass Enter Your 1 ~ 10")
+            print("Pleass Enter Your 1 ~ 11")
             print(Fore.RED + "             [1] "+ Fore.GREEN + " - Ip WebSite" + Fore.BLUE + " ;) ")
             print(Fore.BLUE + "                 *****************")
             time.sleep(0.3)
@@ -65,7 +71,7 @@ while True:
             time.sleep(0.3)
        
             
-            n= int(input(Fore.GREEN + "\nEnter Your Number 1 ~ 10 " + Fore.BLUE + "==>  " ))
+            n= int(input(Fore.GREEN + "\nEnter Your Number 1 ~ 11 " + Fore.BLUE + "==>  " ))
             time.sleep(0.3)
 
 
