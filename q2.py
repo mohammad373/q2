@@ -76,7 +76,8 @@ while True:
             # Ip Site Mamole
 
             if n == 1:
-              baner()          
+              baner()  
+              time.sleep(2)
               import socket
               import time
               def __1__():
@@ -100,7 +101,8 @@ while True:
             # Ip Carbar
 
             if n == 2:        
-              baner()          
+              baner()  
+              time.sleep(2)        
               import os
               import socket
               import sys
@@ -123,7 +125,8 @@ while True:
             #Cloud Flare
             if n == 3:
 
-
+                baner()  
+                time.sleep(2)
                 import os
                 import sys
                 import time
@@ -150,6 +153,8 @@ while True:
 
             # Domain_ 1_
             if n == 4 :
+              baner()  
+              time.sleep(2)
               import time
               import requests, builtwith
               from colorama import Fore
@@ -177,7 +182,9 @@ while True:
               #========================================================================================================
 
 
-            if n == 5:
+            if n == 5
+                  baner()  
+                  time.sleep(2)
                   import sys
                   import requests
                   import sys
@@ -200,6 +207,8 @@ while True:
 
 
             if n == 6:
+                      baner()  
+                      time.sleep(2)
                       my_list = ['robots.txt',
                   'search/',
                   'admin/',
@@ -262,6 +271,8 @@ while True:
             # Nmap For Port WebSite ;)
 
             if n == 7 :
+                    baner()  
+                    time.sleep(2)
                     import requests
                     import time
                     from colorama import Fore
@@ -289,6 +300,8 @@ while True:
             # WebSite In My Target
 
             if n == 8:
+                          baner()  
+                          time.sleep(2)
                           import sys
                           import requests
                           import json
@@ -319,6 +332,8 @@ while True:
             # pyda kardn baksh hay sayt
 
             if n == 9:
+                    baner()  
+                    time.sleep(2)
                     import time
                     import requests
                     import sys
@@ -475,6 +490,8 @@ while True:
             # =====================================================================================================================================================
 
             if n == 10:
+                  baner()  
+                  time.sleep(2)
                   import sys
                   import requests
                   import sys
@@ -492,6 +509,8 @@ while True:
             #______________________________________________________________________________________________________________
             #==============================================================================================================
             if n == 11:
+              baner()  
+              time.sleep(2)
                         # __1__() Ip WebSite
               import os
               os.system("clear")                    
