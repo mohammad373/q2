@@ -61,12 +61,15 @@ while True:
             print(Fore.RED + "             [10] "+ Fore.GREEN + " - whois" + Fore.BLUE + " ;) ")
             print(Fore.BLUE + "                 *****************")
             time.sleep(0.3)
-            print(Fore.RED + "             [11] "+ Fore.GREEN + " - All" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [11] "+ Fore.GREEN + " - Target is WordPress Or Not WordPress" + Fore.BLUE + " ;) ")
+            print(Fore.BLUE + "                 *****************")
+            time.sleep(0.3)            
+            print(Fore.RED + "             [12] "+ Fore.GREEN + " - All" + Fore.BLUE + " ;) ")
             print(Fore.BLUE + "                 *****************")
             time.sleep(0.3)
        
             
-            n= int(input(Fore.GREEN + "\nEnter Your Number 1 ~ 11 " + Fore.BLUE + "==>  " ))
+            n= int(input(Fore.GREEN + "\nEnter Your Number 1 ~ 12 " + Fore.BLUE + "==>  " ))
             time.sleep(0.3)
 
 
@@ -507,8 +510,65 @@ while True:
                           pass
                   __10__() 
             #______________________________________________________________________________________________________________
-            #==============================================================================================================
+            #==================================================================================================
             if n == 11:
+                        baner()
+                        time.sleep(2)
+
+                        import os
+                        import sys
+                        import time
+                        import requests
+                        from colorama import Fore
+
+                        def __12__():
+                            try:
+                                print(Fore.YELLOW + "\nHellow . Welcome Back ;)")
+                                time.sleep(2)
+                                target = input(Fore.GREEN + "\nEnter Your Address Target" + Fore.YWLLOW + " ==>  ")
+                                time.sleep(2)
+                                if target == "" or None :
+                                    try:
+                                        print(Fore.BLUE + "\nOk Good Lunch ;)")
+                                        time.sleep(2)
+                                        os.system("clear")
+                                        sys.exit()
+                                    except:
+                                        pass
+                                r = requests.get("http://" + target + "/wp-content/plugins/")
+                                if r.status_code == 404 or r.status_code == 500:
+                                    try:
+                                        time.sleep(2)
+                                        print(Fore.YELLOW + "\n[!] - Your Target Testing ...")
+                                        time.sleep(2)
+                                        print(Fore.YELLOW + "\n[!] - Pleass Wait ...")
+                                        print(Fore.RED + "\n[-] - Your Target Is Bot WordPress ;(")
+                                        time.sleep(2)
+                                        sys.exit()
+                                    except:
+                                        pass
+                                else:
+                                    try:
+                                        time.sleep(2)
+                                        print(Fore.YELLOW + "\n[!] - Your Target Testing ...")
+                                        time.sleep(2)
+                                        print(Fore.YELLOW + "\n[!] - Pleass Wait ...")
+                                        print(Fore.GREEN + "\n[+] - Your Target Is WordPress ; ")
+                                        time.sleep(2)
+                                        sys.exit()
+                                    except:
+                                        pass
+                            except:
+                                pass
+                        __12__()
+            
+            
+            
+            
+            
+            
+            #==============================================================================================================
+            if n == 12:
               baner()  
               time.sleep(2)
                         # __1__() Ip WebSite
