@@ -538,11 +538,12 @@ while True:
                                 r = requests.get("http://" + target + "/wp-content/plugins/")
                                 if r.status_code == 404 or r.status_code == 500:
                                     try:
-                                        time.sleep(2)
+                                        time.sleep(0.2)
                                         print(Fore.YELLOW + "\n[!] - Your Target Testing ...")
                                         time.sleep(2)
                                         print(Fore.YELLOW + "\n[!] - Pleass Wait ...")
-                                        print(Fore.RED + "\n[-] - Your Target Is Bot WordPress ;(")
+                                        time.sleep(2)
+                                        print(Fore.RED + "\n[-] - Your Target Is Not WordPress ;(")
                                         time.sleep(2)
                                         sys.exit()
                                     except:
