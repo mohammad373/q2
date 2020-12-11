@@ -522,9 +522,9 @@ while True:
                         from colorama import Fore
 
                         def __11__():
-                            try:
-                                # print(Fore.YELLOW + "\nHellow . Welcome Back ;)")
-                                # time.sleep(2)
+
+                                print(Fore.YELLOW + "\nHellow . Welcome Back ;)")
+                                time.sleep(2)
                                 target = input(Fore.GREEN + "\nEnter Your Address Target" + Fore.YWLLOW + " ==>  ")
                                 time.sleep(2)
                                 if target == "" or None :
@@ -548,7 +548,7 @@ while True:
                                     except:
                                         pass
                                 else:
-                                    try:
+
                                         time.sleep(2)
                                         print(Fore.YELLOW + "\n[!] - Your Target Testing ...")
                                         time.sleep(2)
@@ -556,10 +556,7 @@ while True:
                                         print(Fore.GREEN + "\n[+] - Your Target Is WordPress ; ")
                                         time.sleep(2)
                                         sys.exit()
-                                    except:
-                                        pass
-                            except:
-                                pass
+
                         __11__()
             
             
