@@ -523,9 +523,9 @@ while True:
 
                         def __11__():
 
-                                print(Fore.YELLOW + "\nHellow . Welcome Back ;)")
+                                print(Fore.YELLOW + "Hello . Welcome Back ;)")
                                 time.sleep(2)
-                                target = input(Fore.GREEN + "\nEnter Your Address Target" + Fore.YWLLOW + " ==>  ")
+                                target = input(Fore.GREEN + "\nEnter Your Address Target" + Fore.YELLOW + " ==>  ")
                                 time.sleep(2)
                                 if target == "" or None :
                                     try:
