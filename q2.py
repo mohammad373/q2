@@ -30,7 +30,7 @@ while True:
 
 
             time.sleep(1)
-            print("Pleass Enter Your 1 ~ 11")
+            print("Pleass Enter Your 1 ~ 12")
             print(Fore.RED + "             [1] "+ Fore.GREEN + " - Ip WebSite" + Fore.BLUE + " ;) ")
             print(Fore.BLUE + "                 *****************")
             time.sleep(0.3)
